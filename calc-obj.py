@@ -9,4 +9,5 @@ class Calculator(object):
     return self.n * other.n
   def __truediv__(self, other):
     return self.n / other.n
-  
+  def __str__(self):
+    return self.n
